@@ -82,7 +82,7 @@ body {
   border-top-color: red;
   display: inline-block;
   position: relative;
-  left: 65px;
+  left: 70px;
 }
 
 .col:nth-of-type(3) .box:first-of-type {
