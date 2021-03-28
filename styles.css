@@ -59,23 +59,23 @@ body {
 }
 
 .box p {
-  color: var(--gray-blue);
+  color: grey;
 }
 
 .col:first-of-type .box {
-  border-top-color: var(--cyan);
+  border-top-color: cyan;
 }
 
 .col:nth-of-type(2) .box:first-of-type {
-  border-top-color: var(--red);
+  border-top-color: red;
 }
 
 .col:nth-of-type(2) .box:first-of-type(2) {
-  border-top-color: var(--orange);
+  border-top-color: orange;
 }
 
 .col:nth-of-type(3) .box:first-of-type {
-  border-top-color: var(--blue);
+  border-top-color: blue;
 }
 
 .box img {
