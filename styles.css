@@ -6,7 +6,6 @@ body {
   color: #555555;
 }
 
-
 .header_1 {
   font-style: normal;
   font-weight: 200;
@@ -33,7 +32,6 @@ body {
 
   color: #c4c4c4;
 }
-
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -52,32 +50,55 @@ body {
 }
 
 .box {
-  margin: 0px 30px 25px 30px;
+  margin: 25px 30px 25px 30px;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 1px 1px 20px grey;
+  box-shadow: 1px 1px 20px gray;
   border-top-style: solid;
   border-top-width: 5px;
 }
 
+.cards {
+  margin-bottom: 5em;
+}
+
+.container {
+  margin: 0 2em;
+}
+
 .box p {
-  color: grey;
+  color: gray;
 }
 
 .col:first-of-type .box {
   border-top-color: cyan;
+  display: inline-block;
+  position: relative;
+  left: 250px;
+  top: 200px;
 }
 
 .col:nth-of-type(2) .box:first-of-type {
   border-top-color: red;
+  display: inline-block;
+  position: relative;
+  left: 65px;
 }
 
 .col:nth-of-type(3) .box:first-of-type {
   border-top-color: blue;
+  display: inline-block;
+  position: relative;
+  top: 200px;
+  right: 85px;
 }
 
 .col:nth-of-type(4) .box:first-of-type {
   border-top-color: orange;
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+  left: 600px;
 }
 
 img {
