@@ -71,7 +71,7 @@ body {
 }
 
 .col:nth-of-type(2) .box:first-of-type(2) {
-  border-top-color: orange;
+  border-top-color: #FFA500;
 }
 
 .col:nth-of-type(3) .box:first-of-type {
