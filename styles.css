@@ -70,8 +70,8 @@ body {
   border-top-color: red;
 }
 
-.col:nth-of-type(2) .box:first-of-type(2) {
-  border-top-color: #FFA500;
+.col:nth-of-type(2) .box:first-of-type {
+  border-top-color: orange;
 }
 
 .col:nth-of-type(3) .box:first-of-type {
